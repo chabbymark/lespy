@@ -111,7 +111,7 @@ class twoDHrzCon:
         self.cenlin.update({'y':ix_cen*dx})
 
 class twoDVtlCon:
-  """class for 2D vertiyal concentration field"""
+  """class for 2D vertical concentration field"""
   def __init__(self, con=np.zeros(1)):
     if (type(con) is np.ndarray):
       self.con = con
